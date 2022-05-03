@@ -293,6 +293,15 @@ div.art p {
 	padding:0.2vw;
 }
 
+div.art p .na {
+	overflow:hidden;
+	display:inline-block;
+	color:red;
+	font-size:2.5vw;
+	margin:-2.25vw 0 -1.25vw 0;
+	padding:0;
+}
+
 section a,
 div.art a {
 	z-index:0;
@@ -537,6 +546,11 @@ section.pageFr:target ~ div#copyright .linkFr {
 
 	div.art {
 		text-align:left;
+	}
+
+	div.art p .na {
+		font-size:6vw;
+		margin:-3.5vw 0 -2.5vw 0;
 	}
 
 	.artist {
