@@ -165,7 +165,7 @@ h3 {
                 transform:rotate(0deg) translate(45%, 24%);
         }
         100% {
-                transform:rotate(-360deg) translate(45%, 24%);
+                transform:rotate(360deg) translate(45%, 24%);
         }
 }
 
